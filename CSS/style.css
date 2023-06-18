@@ -230,10 +230,13 @@ body {
     font-weight: 500;
     }
 
+.divImgRestau {
+    height:200px;
+}
 
 .imgRestaurant
 {
-	height: 200px;
+	height:100%;
     width:100%;
 	object-fit : cover;
     border-top-left-radius: 10px;
