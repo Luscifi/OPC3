@@ -2,10 +2,13 @@
 body {
 width:100%;
 }
-a{
+
+a {
     text-decoration: none;
     color :black;
 }
+
+/*LOADER*/
 
 .loader-container {
   position: relative;
@@ -123,7 +126,6 @@ div #btnFrontPage {
     background: linear-gradient(#FF79DA, #9356dc);
     padding:15px 15px 15px 15px;
     border:none;
-    font-weight:;
     margin:0 auto;
     display:flex;
     justify-content: center;
@@ -162,9 +164,7 @@ div #btnFrontPage {
 .bubble {
     display: flex;
     align-items: center;
-    color:
-    background-color:
-    #F6F6F6;
+    background-color: #F6F6F6;
     padding-top:15px;
     padding-bottom: 15px;
     margin-top:15px;
@@ -423,5 +423,3 @@ font-size: 22px;
         justify-content: center;
         }
     }
-}
-
