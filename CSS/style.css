@@ -130,8 +130,10 @@ div #btnFrontPage {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:15px;
-    margin-bottom:15px;
+    width:186px;
+    margin-top:40px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
 }
 
 #sectionExplanation {
@@ -310,6 +312,7 @@ footer {
 
 #footerCol {
     padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 #footerCol p {
@@ -322,6 +325,10 @@ footer {
 #footerCol p i {
     padding-right:5px;
     font-size: 14px;
+}
+
+#footerTitleDesktop {
+    display: none;
 }
 
 /*MENU*/
@@ -340,8 +347,8 @@ body {
 
 #containerMenu {
 box-sizing: border-box;
-    margin: 0 auto;
-    background-color: lightgray;
+margin: 0 auto;
+background-color:#F6F6F6;
 padding-top:20px;
 width: 100%;
 position:relative;
@@ -349,7 +356,8 @@ margin-top:-150px;
 border-radius: 20px;
 font-family: roboto;
 font-weight:bold;
-padding-left:10px;
+padding-left:15px;
+padding-right:20px;
 padding-bottom: 30px;
 }
 
@@ -357,6 +365,9 @@ padding-bottom: 30px;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 28px;
 }
 
 .fa-heart {
@@ -370,7 +381,7 @@ padding-bottom: 30px;
 
 .course h2 {
     font-weight: lighter;
-    font-size:14px;
+    font-size:16px;
     border-bottom: 3px rgb(101, 208, 147) solid;
     width:45px;
 }
@@ -382,6 +393,7 @@ padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .dishContent {
@@ -410,6 +422,12 @@ padding-bottom: 30px;
 }
 
 .check {
+    display: flex;
+    width:0;
+    overflow: hidden;
+}
+
+.dish:hover .check {
     background-color: #99E2D0;
     width: 60px;
     height: 70px;
@@ -418,6 +436,7 @@ padding-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 1s;
 }
 
 .check .fa-solid {
@@ -425,14 +444,64 @@ color:white;
 font-size: 22px;
 }
 
-* > .check {
-    display: none;
-}
+@media screen and (min-width: 1400px) {
+ #containerMenu {
+    width:1055px;
+    margin-top: -50px;
+ }
+ .restaurantName{
+    display: flex;
+    justify-content: center;
+ }
 
-.dish:hover {
-    .check {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
+ .course { 
+    margin-bottom:40px;
+ }
+  #btnFrontPage {
+    width:186px;
+    margin-top:50px;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    height:114px;
+  }
+  #footerCol {
+  display: flex;
+    align-items: center;
+}
+    #footerCol p {
+        margin-right: 10px;
     }
+    #footerTitle {
+        display: none;
+    }
+
+    #footerTitleDesktop {
+        display: block;
+        font-family: shrikhand;
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        margin-right:40px;
+        margin-left: 50px;
+    }
+
+    .restaurantName {
+        display: flex;
+    }
+    #emptyHeart {
+        position: absolute;
+        margin-top: -10px;
+    }
+    #fullHeart {
+        position: absolute;
+        margin-top: -10px;
+    }
+    .containerHeart {
+        position: relative;
+        margin-left: 25px;
+    }
+}
