@@ -59,11 +59,20 @@ a {
 
 /*LOGO*/
 header h1 {
-text-align: center;
 font-family: 'shrikhand';
 margin-bottom:2px;
 box-shadow: 0 2px 0 0 rgb(206,206,206);
 font-size: 32px;
+display: flex;
+justify-content: center;
+}
+
+
+.fa-arrow-left {
+font-size: 28px;
+position: absolute;
+margin-left:50px;
+margin-top:10px;
 }
 
 #location{
@@ -274,15 +283,15 @@ margin-top:0;
     position:relative;
 }
 
-#emptyHeart  {
+.emptyHeart  {
     position:absolute;
 }
 
-#fullHeart, :hover > #emptyHeart {
+.fullHeart, :hover > .emptyHeart {
     opacity:0;
 }
 
-:hover > #fullHeart {
+:hover > .fullHeart {
     display: inline-block;
     opacity: 1;
     color:transparent;
@@ -494,11 +503,11 @@ font-size: 22px;
     .restaurantName {
         display: flex;
     }
-    #emptyHeart {
+    .emptyHeart {
         position: absolute;
         margin-top: -10px;
     }
-    #fullHeart {
+    .fullHeart {
         position: absolute;
         margin-top: -10px;
     }
