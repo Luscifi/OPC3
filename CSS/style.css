@@ -133,7 +133,7 @@ div #btnFrontPage {
     width:186px;
     margin-top:40px;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 #sectionExplanation {
@@ -270,6 +270,7 @@ margin-top:0;
 }
 
 .containerHeart {
+    display: flex;
     position:relative;
 }
 
@@ -377,6 +378,7 @@ padding-bottom: 30px;
 
 .course {
     margin-right:10px;
+    margin-bottom:40px;
 }
 
 .course h2 {
