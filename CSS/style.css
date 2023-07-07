@@ -411,6 +411,9 @@ padding-bottom: 30px;
     animation-delay: 5s;
 }
 
+.course3 {
+    animation-delay: 8s;
+}
 
 
 @keyframes show-div {
