@@ -270,7 +270,7 @@ body {
     justify-content: space-between;
 }
 
-.restaurantName{
+.restaurantName {
 margin-bottom:0;
 }
 
@@ -397,6 +397,25 @@ padding-bottom: 30px;
     font-size:16px;
     border-bottom: 3px rgb(101, 208, 147) solid;
     width:45px;
+}
+
+.course {
+    animation: show-div 1s forwards;
+    opacity :0;
+}
+
+.course1 {
+    animation-delay: 2s;
+}
+.course2 {
+    animation-delay: 5s;
+}
+
+
+
+@keyframes show-div {
+    0% {opacity:0}
+    100% {opacity:1}
 }
 
 .dish {
