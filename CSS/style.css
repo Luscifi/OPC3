@@ -162,7 +162,7 @@ div #btnFrontPage {
 .numberCircle {
     color:white;
     border-radius:30px;
-    background-color: #b060be;
+    background-color: #9356DC;
     height:20px;
     width:20px;
     text-align: center;
@@ -484,6 +484,17 @@ font-size: 22px;
     width:1055px;
     margin-top: -50px;
  }
+
+ #horizontalexplanation{
+display: flex;
+justify-content: space-evenly;
+}
+
+.numberCircle {
+    position:initial;
+    margin-left:-5px;
+}
+
  .restaurantName{
     display: flex;
     justify-content: center;
@@ -512,6 +523,11 @@ font-size: 22px;
     }
     #footerTitle {
         display: none;
+    }
+
+    .bubble {
+        margin-top:0;
+        padding-right:50px;
     }
 
     #footerTitleDesktop {
