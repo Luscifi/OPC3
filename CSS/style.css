@@ -431,9 +431,7 @@ padding-bottom: 30px;
     margin-bottom: 12px;
 }
 
-.dishContent {
-    flex-grow: 1;
-}
+
 
 .dish p {
     margin:0;
@@ -498,6 +496,11 @@ justify-content: space-evenly;
  .restaurantName{
     display: flex;
     justify-content: center;
+ }
+
+ #restaurantRows {
+    display: flex;
+    justify-content: space-around;
  }
 
  .course { 
