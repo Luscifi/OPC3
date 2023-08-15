@@ -377,7 +377,16 @@ padding-bottom: 30px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Shrikhand';
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.restaurantNameRestau {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'shrikhand';
     font-weight: 400;
     font-size: 28px;
 }
