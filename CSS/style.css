@@ -250,6 +250,17 @@ body {
     font-weight: 500;
     }
 
+    @media screen and (min-width: 1400px) {
+    .newRestaurant {
+        top:40px;
+        left:30px
+        }
+        .restaurantBubble {
+            margin-top:20px;
+            min-width:500px;
+        }
+    }
+    
 .divImgRestau {
     height:200px;
 }
@@ -447,6 +458,10 @@ padding-bottom: 30px;
     margin-bottom: 12px;
 }
 
+.dishContent {
+    flex:1;
+}
+
 
 
 .dish p {
@@ -577,5 +592,6 @@ justify-content: space-evenly;
     .containerHeart {
         position: relative;
         margin-left: 25px;
+        margin-right:50px;
     }
 }
