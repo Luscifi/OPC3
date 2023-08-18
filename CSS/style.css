@@ -479,6 +479,7 @@ padding-bottom: 30px;
     flex-grow: 1;
     padding-right: 10px;
 }
+
 .dishDetails {
     display: flex;
     justify-content: space-between;
